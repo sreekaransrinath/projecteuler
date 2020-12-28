@@ -13,3 +13,7 @@ def sumofSquares(num):
 def squareofSum(num):
     return sum([n for n in range(num + 1)]) ** 2
 print(squareofSum(num) - sumofSquares(num))
+
+#Overview Implementation
+def diff(num):
+    return ((num * (num + 1) / 2) ** 2)- ()
